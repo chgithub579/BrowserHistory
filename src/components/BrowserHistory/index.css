@@ -1,0 +1,96 @@
+
+
+.top-container{
+    background-color: blue;
+     display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.image{
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+.search-button{
+    
+  
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 0px;
+  text-align: center;
+  background-color: rgb(75, 75, 109);
+   border-width: 1px;
+    border-color: white;
+
+}
+.search-input{
+    height: 40px;
+    width: 300px;
+    background-color: rgb(75, 75, 109);
+    border-width: 1px;
+    border-color: white;
+    color: aliceblue;
+
+}
+.image{
+    text-align: start;
+}
+.search-container{
+     margin-left: 450px;
+}
+.list-container{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+
+.card-container{
+    text-align: center;
+
+}
+.logo-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.button-container{
+    display: flex;
+    align-items: end;
+    text-align: end;
+}
+.time {
+  color: #555;
+  margin-right: 10px;
+  min-width: 80px;
+}
+
+.button-container {
+  margin-left: auto; /* Pushes the button to the far right */
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-img {
+  width: 20px;
+  height: 20px;
+}
+.logo-image{
+    margin-left: 15px;
+}

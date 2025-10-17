@@ -1,0 +1,48 @@
+.bg-container{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.card-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.feedback-container{
+     background-color: white;
+    border-radius: 10px;
+}
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+.heading{
+    font-size: 20px;
+    font-style: "Roboto";
+    font-weight: bold;
+    padding-top: 10px;
+}
+.button{
+    border: none;
+   background-color: transparent;
+}
+.emoji{
+    width: 60px;
+    height: 50px;
+    padding: 30px;
+}
+.love-emoji{
+    width: 30px;
+    height: 30px;
+    padding-top: 30px;
+}
+.head{
+    font-size: 20px;
+}
